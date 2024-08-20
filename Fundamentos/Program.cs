@@ -99,7 +99,7 @@ internal class Program
 
         // Imprimindo a informaçao na tela
         Console.WriteLine("O Animal " + animal1.Especie + " emitiu um som.");
-        */
+      
 
         Gato gato = new Gato();
         gato.Nome = "Frajola";
@@ -117,5 +117,28 @@ internal class Program
         galinha.Nome = "Pintadinha";
         Console.WriteLine(galinha.Nome + " faz:");
         galinha.emitirSom();
+          */
+
+        Mago merlin = new Mago();
+        merlin.Nome = "Mago Merlin";
+        merlin.Vida = 100;
+        merlin.Inteligencia = 92;
+        merlin.Agilidade = 50;
+        merlin.Forca = 62;
+        merlin.Nivel = 1;
+
+        Elfo elfo = new Elfo();
+        elfo.Nome = "Julius";
+        elfo.Vida = 100;
+        elfo.Inteligencia = 83;
+        elfo.Forca = 99;
+        elfo.Agilidade = 99;
+        elfo.Nivel = 1;
+
+        merlin.apresentarSe();
+        elfo.apresentarSe();
+        merlin.batalhar(elfo);
+
+
     }
 }
