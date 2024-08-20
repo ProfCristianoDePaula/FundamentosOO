@@ -14,6 +14,6 @@ namespace Fundamentos
         public int Forca { get; set; }
         public int Agilidade { get; set; }
         public int Inteligencia { get; set; }
-        public int Vida { get; set; }
+        public int PontoVida { get; set; }
     }
 }
